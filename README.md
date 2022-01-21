@@ -55,6 +55,9 @@ Options are:
 - `protocol` (string, optional) - `udp` or `tcp` (default)
 - `txt` (object, optional) - a key/value object to broadcast as the TXT
   record
+- `interface` (string) interface to use for publishing
+- `ignore_v4` (boolean) do not send A records
+- `ignore_v6` (boolean) do not send AAAA records
 
 IANA maintains a [list of official service types and port
 numbers](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml).
